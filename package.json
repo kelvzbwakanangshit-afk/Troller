@@ -1,0 +1,17 @@
+{
+  "name": "celestial-troll-bot",
+  "version": "3.0.0",
+  "description": "Troll bot + assistant for Facebook Messenger: humanized replies, working typing indicator, !music, GC name cycle",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check server.js && node --check commands.js && node --check music.js && node --check gcname.js && node --check banat-human.js && node --check human-typing.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "@dongdev/fca-unofficial": "latest"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
